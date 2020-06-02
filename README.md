@@ -4,15 +4,11 @@
 
 <br>
 
-## 1. [React] Todo + Movie List
+## [React] Todo + Movie List
 
-- TodoList 구현
-  - Create(Enter Key)
-  - Register
-  - Update
-  - Delete
-- api 호출해 Movie List 출력
-- Loading Spinner 구현
+- TodoList
+- Movie List (api)
+- Loading Spinner
 
 <br>
 
