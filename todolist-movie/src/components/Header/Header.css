@@ -1,0 +1,27 @@
+body{
+    background: white;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    height: 5vh;
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+}
+
+.myname{
+    position: absolute;
+    top: 10px;
+    left: 3em;
+}
+
+.nav-group{
+    position: absolute;
+    top: 10px;
+    right: 3em;
+}

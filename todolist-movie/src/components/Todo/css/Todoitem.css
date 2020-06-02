@@ -1,0 +1,24 @@
+
+.items {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: none;
+}
+
+.button-group {
+    padding-right: 1rem;
+    float: right;
+}
+
+.create-button {
+    border: none;
+    background: white;
+    color: royalblue;
+    float: right;
+}
+.delete-button {
+    border: none;
+    background: white;
+    color: rgb(189, 52, 52);
+    float: right;
+}
