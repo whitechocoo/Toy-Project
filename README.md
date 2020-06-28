@@ -6,7 +6,7 @@
 
 ## [React] Todo + Movie List
 
-### ✔️[todolist-movie][https://github.com/dsunni/Toy-Project/tree/master/todolist-movie]
+### ✔️[todolist-movie](https://github.com/dsunni/Toy-Project/tree/master/todolist-movie)
 
 - TodoList
 - Movie List (api)
@@ -23,7 +23,7 @@
 > - **oEmbed**란 다른 사이트의 URL을 내장된 표현을 가능하게 하는 Format
 > - 유저가 Resource  링크를 입력하면 웹사이트들이 Resource를 직접 파싱하지 않고, 내장된 컨텐츠(사진과 비디오같은)를 보여주는 간단한 API
 
-### ✔️[oEmbed-project][https://github.com/dsunni/Toy-Project/tree/master/oEmbed-project]
+### ✔️[oEmbed-project](https://github.com/dsunni/Toy-Project/tree/master/oEmbed-project)
 
 https://www.youtube.com/watch?v=k5fCQFIKpqU와 같은 url을 검색하면
 
