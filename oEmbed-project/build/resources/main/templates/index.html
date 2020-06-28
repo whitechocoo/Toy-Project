@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>oEmbed Test</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>oEmbed Test</h1>
+    <br>
+    <form method="POST" action="/result">
+        <input type="text" name="inputUrl" id="inputUrl">
+        <button type="submit" class="btn btn-outline-danger">확인</button>
+    </form>
+    <br>
+    <div th:if="${oEmbedInfo}">
+        <th:block th:replace="result"></th:block>
+    </div>
+</body>
+</html>
+

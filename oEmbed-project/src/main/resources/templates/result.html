@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>oEmbed Test</title>
+</head>
+<body>
+    <table class="table table-striped">
+        <tr th:each="entry: ${oEmbedInfo}">
+            <td th:text="${entry.key}"></td>
+
+            <span th:switch="${entry.key}">
+                <span th:case="'thumbnail_url'">
+                    <td>
+                        <span><img th:src="@{${entry.value}}"></span><br>
+                        <span th:text="${entry.value}"></span>
+                    </td>
+                </span>
+
+                <span th:case="'html'">
+                    <td>
+                        <span th:utext="${entry.value}"></span><br>
+                        <span th:text="${entry.value}"></span>
+                    </td>
+                </span>
+
+                <span th:case="*">
+                    <td th:text="${entry.value}"></td>
+                </span>
+            </span>
+        </tr>
+    </table>
+</body>
+</html>
+
+
