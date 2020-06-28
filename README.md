@@ -25,7 +25,6 @@
 
 ### ✔️[oEmbed-project](https://github.com/dsunni/Toy-Project/tree/master/oEmbed-project)
 
-https://www.youtube.com/watch?v=k5fCQFIKpqU와 같은 url을 검색하면
-
-1. providers.json에서 provider 체크
-2. endpoint url을 사용해 API 호출
+- https://www.youtube.com/watch?v=k5fCQFIKpqU와 같은 url을 검색하면
+  1. providers.json에서 provider 체크
+  2. endpoint url을 사용해 API 호출
